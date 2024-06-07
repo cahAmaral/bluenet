@@ -80,5 +80,22 @@ body{
     line-height: 150%;
     margin-bottom: 16px;
 }
+.conteudo-principal-integrantes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.conteudo-principal-integrantes div{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 300px;
+}
+.conteudo-principal-integrantes div a:nth-child(2){
+    
+    text-align: center;
+}
 
 
