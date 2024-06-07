@@ -21,10 +21,9 @@
 
     <main class="conteudo-principal-cadastro">
         <form>
-            <input type="text" placeholder="Nome">
-            <input type="password" placeholder="Senha">
-            <input type="email" placeholder="Email">
-            <select name="perfil_usuario" placeholder="Você é:">
+            <input type="text" name="nome" placeholder="Nome" required minlength="2">
+            <input type="email" name="email" placeholder="Email" required minlength="5">
+            <select name="perfil_usuario" placeholder="Você é:" required>
                 <option value="" selected disabled hidden>Você é: </option>
                 <option value="voluntario">Voluntário</option>
                 <option value="doador">Doador</option>
