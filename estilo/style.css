@@ -19,7 +19,7 @@ body{
     color: white;
     font-family: 'Inter', sans-serif;
 }
-header{
+.cabecalho{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,4 +40,24 @@ header{
     padding: 8px 24px 8px 24px;
     border-radius: 20px;
     font-weight: bold;
+}
+.titulo-principal{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-principal span:nth-child(3){
+    font-family: "Krona One", sans-serif;
+    color: #00A3FF;
+    font-size: 83pt;
+
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 128px;
 }
