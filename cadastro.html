@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-    <link rel="stylesheet" href="./estilo/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./estilo/style.css" />
+  </head>
+  <body>
     <header class="cabecalho">
-    
-        <img src="./img/Group 2.png" alt="logo blue-net">
-    
-       
-        <nav>
-            <a class="link-navegacao" href="./index.html">Início</a>
-            <a class="link-navegacao" href="./sobre.html">Sobre</a>
-            <a class="link-navegacao" href="./integrantes.html">Integrantes</a>
-            <a class="link-navegacao-atual" href="./cadastro.html">Cadastro</a>
-         </nav>
+      <img src="./img/Group 2.png" alt="logo blue-net" />
 
+      <nav>
+        <a class="link-navegacao" href="./index.html">Início</a>
+        <a class="link-navegacao" href="./sobre.html">Sobre</a>
+        <a class="link-navegacao" href="./integrantes.html">Integrantes</a>
+        <a class="link-navegacao-atual" href="./cadastro.html">Cadastro</a>
+      </nav>
     </header>
 
     <main class="conteudo-principal-cadastro">
-        <form>
-            <input type="text" name="nome" placeholder="Nome" required minlength="2">
-            <input type="email" name="email" placeholder="Email" required minlength="5">
-            <select name="perfil_usuario" placeholder="Você é:" required>
-                <option value="" selected disabled hidden>Você é: </option>
-                <option value="voluntario">Voluntário</option>
-                <option value="doador">Doador</option>
-                <option value="profissional">Profissional da área</option>
-                <option value="representante">Representante de instituição</option>
-            
-            </select>
-            <button type="submit">FAÇA PARTE</button>
-            
-
-            </select>
-        </form>
-
-    
+      <form>
+        <input
+          type="text"
+          name="nome"
+          placeholder="Nome"
+          required
+          minlength="2"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+          minlength="5"
+        />
+        <select name="perfil_usuario" placeholder="Você é:" required>
+          <option value="" selected disabled hidden>Você é:</option>
+          <option value="voluntario">Voluntário</option>
+          <option value="doador">Doador</option>
+          <option value="profissional">Profissional da área</option>
+          <option value="representante">Representante de instituição</option>
+        </select>
+        <button type="submit">FAÇA PARTE</button>
+      </form>
     </main>
-    
-</body>
+  </body>
 </html>
