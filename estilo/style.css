@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 *{
     margin: 0;
@@ -105,5 +106,43 @@ body{
 .link-email {
     color: white;
 }
+.link-invisivel {
+    visibility: hidden;
+}
 
+.conteudo-principal-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 600px;
+}
 
+.conteudo-principal-cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+}
+
+.conteudo-principal-cadastro form input, .conteudo-principal-cadastro form select {
+    padding: 8px;
+    border-radius: 16px;
+    border: 0;
+    background-color: #B4B3B3;
+}
+
+.conteudo-principal-cadastro form button {
+    background-color: transparent;
+    color: #00A3FF;
+    cursor: pointer;
+    font-size: 34pt;
+    font-family: "Audiowide", sans-serif;
+    text-shadow:
+        0 0 82px #00A3FF,
+        0 0 92px #00A3FF,
+        0 0 151px #00A3FF;
+    margin-top: 32px;
+}
