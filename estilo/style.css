@@ -153,6 +153,7 @@ body {
   display: none;
   padding: 32px;
   text-align: justify;
+  line-height: 150%;
 }
 
 @media (max-width: 900px) {
