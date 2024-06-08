@@ -149,6 +149,12 @@ body {
   margin-top: 32px;
 }
 
+#mensagem-cadastro {
+  display: none;
+  padding: 32px;
+  text-align: justify;
+}
+
 @media (max-width: 900px) {
   .cabecalho {
     flex-direction: column;

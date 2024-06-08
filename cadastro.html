@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
     <link rel="stylesheet" href="./estilo/style.css" />
+    <script src="./scripts/main.js" defer></script>
   </head>
   <body>
     <header class="cabecalho">
@@ -19,8 +20,9 @@
     </header>
 
     <main class="conteudo-principal-cadastro">
-      <form>
+      <form id="form-cadastro">
         <input
+          id="campo_nome"
           type="text"
           name="nome"
           placeholder="Nome"
@@ -28,13 +30,19 @@
           minlength="2"
         />
         <input
+          id="campo_email"
           type="email"
           name="email"
           placeholder="Email"
           required
           minlength="5"
         />
-        <select name="perfil_usuario" placeholder="Você é:" required>
+        <select
+          id="campo_perfil"
+          name="perfil_usuario"
+          placeholder="Você é:"
+          required
+        >
           <option value="" selected disabled hidden>Você é:</option>
           <option value="voluntario">Voluntário</option>
           <option value="doador">Doador</option>
@@ -43,6 +51,9 @@
         </select>
         <button type="submit">FAÇA PARTE</button>
       </form>
+
+      <p id="mensagem-cadastro">
+      </p>
     </main>
   </body>
 </html>
